@@ -20,17 +20,12 @@ const About = () => {
             data-aos="fade-right"
             data-aos-offset="-50"
           >
-            <h2 className="about_title">Loyiha haqida</h2>
+            <h2 className="about_title">Brilliant City haqida</h2>
             <p className="about_text">
-              Orifon turar-joy majmuasida har bir detall oʻrnatish oldidan
-              sinchkovlik bilan koʻzdan kechirilgan. Xonadonlar loyihasi, hovli
-              maydoni va avtoturargohlar qulayligi masalasi puxta oʻylangan.
+              Qurilish jarayonida eng zamonaviy texnologiyalar va yuqori sifatli materiallardan foydalanamiz. Har bir detal puxta rejalashtirilgan boʻlib, uyingizni mustahkam va ishonchli qiladi.
             </p>
             <p className="about_text">
-              Ushbu majmua qurilishini boshlashdan oldin TXT Group
-              tadqiqotchilar jamoasi joylashuv oʻrnini chuqur oʻrganib, zarur
-              yechimlarni taqdim etdi. Shundan soʻng bunyodkorlik ishlari
-              boshlangan.
+              Loyihada zamonaviy texnologiyalar va innovatsion yechimlar qoʻllanilgan. Energiya samaradorligi, xavfsizlik tizimlari va qulay interyer — hammasi sizning qulayligingiz uchun yaratilgan.
             </p>
           </div>
 
@@ -77,9 +72,7 @@ const About = () => {
                 </svg>
               </div>
               <p className="about_map_text_text">
-                Togʻlar bagʻrida joylashgan majmua oʻzining salobati bilan
-                ajralib turadi. Unda yashovchilar toza havodan bahramand boʻlib,
-                shaharda chiqarilgan energiyani qayta toʻldirib oladi.
+                Turar-joy majmuasi oilaviy yashash uchun moʻljallangan. Keng xonalar, bolalar uchun qulay maydonchalar va xavfsizlik sizning farovonligingizni taʼminlaydi.
               </p>
               <p className="about_map_text_text2">Xaritada ko‘rish</p>
             </div>
@@ -158,7 +151,8 @@ const About = () => {
 
 
                 </div>
-                Ochiq va yopiq basseynlar
+                Pastki qavatlarda
+                savdo markazlari
               </div>
               <div className="about_icon_text">
                 <div className="about_icon_text_card" >
@@ -203,7 +197,8 @@ const About = () => {
                 </div>
                 Yerosti
                 <br />
-                parkingi
+                avtoturargoh
+
               </div>
             </div>
           </div>

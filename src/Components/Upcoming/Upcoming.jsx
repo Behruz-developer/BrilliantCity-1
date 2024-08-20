@@ -52,10 +52,12 @@ const Upcoming = ({ images }) => {
                           className="slidet_text"
                           key={`navimage${index + 1}`}
                         >
-                          Togʻ bagʻridagi baxt maskani butun oilangizni kutmoqda
+                          Shinam va koʻp funksiyali uylar
+                          sizni kutib oladi
                         </h3>
                         <p className="slidet_text2">
-                          Orifon — TXT Group kompaniyasi tomonidan Gʻazalkent shahrida barpo etilayotgan dalahovli uslubidagi yangi loyiha.
+                          Brilliant City — TXT Group kompaniyasi tomonidan Samarqand shahrida barpo
+                          etilayotgan koʻp funksiyali turar-joy majmuasi.
                         </p>
                       </div>
                       <div className="upcoming_icon2_card">

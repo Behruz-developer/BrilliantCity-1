@@ -135,7 +135,7 @@
         // column-gap: 5%;
         justify-content: space-between;
         flex-wrap: wrap;
-
+        width: 100%;
         @include media(1480px) {
             flex-direction: row;
             // column-gap: 0;
@@ -155,7 +155,7 @@
     }
 
     &_icon_text:nth-of-type(3) {
-        width: 28%;
+        width: 38%;
 
         @include media(1200px) {
             width: 30%;

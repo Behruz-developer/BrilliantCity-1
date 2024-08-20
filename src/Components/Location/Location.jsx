@@ -28,14 +28,10 @@ const Location = () => {
           >
             <h3 className="location_title">Joylashgan o`rni</h3>
             <p className="location_text">
-              Orifon turar-joy majmuasi Boʻstonliq tumani markazida togʻlar
-              bagʻrida joylashgan. Bu yerda shahar shovqinidan uzoqda, tabiat
-              bilan uygʻunlikda yashash mumkin.
+              Brilliant City turar-joy majmuasi Samarqand shahrining eng serqatnov koʻchalaridan birida joylashgan boʻlib, bu doim yangiliklar markazida boʻlishingizga yordam beradi.
             </p>
             <p className="location_text">
-              Majmua dalahovli tipida boʻlib, unda basseynlar, akvapark va
-              boshqa koʻngilochar zonalar mavjud. Bolalar uchun hayvonot bogʻi
-              ham tashkil etiladi.
+              Shahar markaziga yaqin boʻlishiga qaramay, loyiha hududi tinch va osoyishta. Yashil maydonlar va dam olish zonalari sizga shahar shovqinidan uzoqda yashash imkoniyatini beradi.
             </p>
           </div>
           <div
@@ -44,9 +40,9 @@ const Location = () => {
             data-aos-offset="-200"
           >
             <p className="location_text2">
-              Orifon — oilaviy hordiq chiqarish va ijaradan daromad olish uchun
-              munosib turar-joy majmuasi. Ushbu loyiha sizning sevimli
-              manzilingizga aylanadi.
+              Brilliant City loyihasi shahar hayotining qulayliklarini tabiatning
+              osoyishtaligi bilan uygʻunlashtirgan. Tabiat bilan yaqinlikda
+              yashash uchun mukammal joyni tanlang!
             </p>
           </div>
         </div>
