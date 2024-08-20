@@ -1,6 +1,7 @@
 
 import universal from "../../assets/images/universall3.png";
 
+
 const Blocks_location = () => {
   return (
     <div className="blocks_location">
