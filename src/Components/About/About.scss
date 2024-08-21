@@ -230,7 +230,7 @@
         align-items: start;
         gap: 16px;
         bottom: -50px;
-        width: 90%;
+        width: 75%;
 
         @include media(1538px) {
             padding: 30px 46px;
@@ -289,14 +289,12 @@
 
         &_text {
             font-family: "Golos Text", sans-serif;
-            font-size: 24px;
+            font-size: 20px;
             font-weight: 400;
-            line-height: 32px;
+            line-height: 24px;
             text-align: left;
+            color: #201637;
 
-            @include media(1538px) {
-                font-size: 22px;
-            }
 
             @include media(1450px) {
                 font-size: 20px;

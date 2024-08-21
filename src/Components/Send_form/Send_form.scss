@@ -21,6 +21,7 @@
             display: block;
             height: 100%;
             object-fit: cover;
+
             @include media (1200px) {
                 border-radius: 16px 16px 0px 0px;
             }
@@ -148,15 +149,46 @@
         width: 100%;
         margin-top: 24px;
         display: flex;
+        align-items: center;
         column-gap: 8px;
         color: #505050;
 
+        &_container {
+            border-radius: 8px;
+            overflow: hidden;
+            height: 24px;
+        }
+
         input {
-            background-color: #57572d;
+            background-color: #F3F3EF;
             width: 24px;
             height: 24px;
             border-radius: 8px;
+            // border: 1px solid #ccc;  
+            outline: none;
+            appearance: none;
+            -webkit-appearance: none;
+            box-shadow: none;
+            position: relative;
+        }
 
+        /* Tekshirilgan holatda */
+        input:checked {
+            background-color: #201637;
+            border-color: #201637;
+        }
+
+        input:checked::after {
+            content: "";
+            position: absolute;
+            top: 4px;
+            left: 8px;
+            width: 5px;
+            height: 10px;
+            border: solid white;
+            border-width: 0 2px 2px 0;
+            transform: rotate(45deg);
+            /* Check belgisi */
         }
     }
 
