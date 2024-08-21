@@ -2,7 +2,6 @@
 import { useState } from "react";
 import form from "../../assets/images/slider3.jpg";
 
-
 const Send_form = () => {
   const [isChecked, setIsChecked] = useState(false);
   const [formData, setFormData] = useState({
@@ -40,6 +39,12 @@ const Send_form = () => {
     }
   };
 
+  const handleTelInput = (e) => {
+    var x = e.target.value.replace(/\D/g, '').match(/(\d{0,3})(\d{0,2})(\d{0,3})(\d{0,2})(\d{0,2})/);
+    e.target.value = '+' + (x[1] ? x[1] + ' ' : '') + (x[2] ? '(' + x[2] + ')' : '') + (x[3] ? ' ' + x[3] : '') + (x[4] ? '-' + x[4] : '') + (x[5] ? '-' + x[5] : '');
+    setFormData({ ...formData, tel: e.target.value });
+  };
+
   const handleSubmit = async (event) => {
     event.preventDefault();
     if (!isChecked) {
@@ -47,7 +52,11 @@ const Send_form = () => {
       return;
     }
 
-    const response = await sendToTelegramBot(formData);
+    // Telefon raqamini formatlash
+    const formattedTel = formData.tel.replace(/\D/g, ''); // Faqat raqamlar
+    const finalTel = `+${formattedTel}`;
+
+    const response = await sendToTelegramBot({ ...formData, tel: finalTel });
     if (response && response.ok) {
       alert("Xabar yuborildi!");
 
@@ -61,6 +70,7 @@ const Send_form = () => {
       alert("Xabar yuborishda xatolik yuz berdi");
     }
   };
+
   return (
     <form className="form" onSubmit={handleSubmit}>
       <div className="container">
@@ -96,15 +106,12 @@ const Send_form = () => {
                     id="tel"
                     placeholder="+998"
                     value={formData.tel}
-                    onChange={(e) =>
-                      setFormData({ ...formData, tel: e.target.value })
-                    }
+                    onChange={handleTelInput}
                   />
                 </div>
               </div>
               <div className="form_chekbox">
                 <div className="form_chekbox_container">
-                  {" "}
                   <input
                     type="checkbox"
                     name=""
@@ -114,10 +121,10 @@ const Send_form = () => {
                   />
                 </div>
                 <p className="name_text">
-                  Shaxsiy maʼlumotlarim qayta ishlanishiga roziman{" "}
+                  Shaxsiy maʼlumotlarim qayta ishlanishiga roziman
                 </p>
               </div>
-              <button className="name_text" onClick={handleSubmit}>
+              <button className="name_text" type="submit">
                 Yuborish
               </button>
             </div>

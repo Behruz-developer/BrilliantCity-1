@@ -1,8 +1,8 @@
 import { useEffect } from 'react'
-import construction from '../../assets/images/construction.png'
-import construction2 from '../../assets/images/construction2.png'
-import construction3 from '../../assets/images/construction3.png'
-import construction4 from '../../assets/images/construction4.png'
+// import construction from '../../assets/images/construction.png'
+// import construction2 from '../../assets/images/construction2.png'
+// import construction3 from '../../assets/images/construction3.png'
+// import construction4 from '../../assets/images/construction4.png'
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 
