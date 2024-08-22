@@ -64,16 +64,17 @@ const Footer = () => {
           </div>
           <div className="footer_card2">
             <div >
-            <iframe className="map_container" src="https://yandex.com/map-widget/v1/?um=constructor%3Aa55cf6161495aa86a877514cfd67d8df6e8fcc8c7c207e42dce9f40c52f96fc9&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
+              <iframe className="map_container" src="https://yandex.com/map-widget/v1/?um=constructor%3A29b7c40e7212795570a1fce17669e7ca58f49870a94b1add3cff7b8fda9fbe67&amp;source=constructor" width="591" height="488" frameborder="0"></iframe>
             </div>
           </div>
           <div className="footer_card3">
             <p className="footer_card3_text">
               © 2024 TXT Group. Barcha huquqlar himoyalangan.
               Saytda nashr etilgan har qanday material kompaniya intellektual mulki hisoblanib, foydalanuvchilar bundan xabardor boʻlishi kerak.
+              Ushbu saytdagi rasm va renderlar majmua loyihasi, xonadonlar joylashuvi va hovli maydoni bilan yaqindan tanishish maqsadida yuklangan. Tayyor binolar dizayni va koʻrinishi saytdagi tasvirlardan farq qilishi mumkin. Shu sababli bu maʼlumotlar ommaviy oferta hisoblanmaydi.
+
             </p>
             <p className="footer_card3_text">
-              Ushbu saytdagi rasm va renderlar majmua loyihasi, xonadonlar joylashuvi va hovli maydoni bilan yaqindan tanishish maqsadida yuklangan. Tayyor binolar dizayni va koʻrinishi saytdagi tasvirlardan farq qilishi mumkin. Shu sababli bu maʼlumotlar ommaviy oferta hisoblanmaydi.
             </p>
           </div>
         </div>
