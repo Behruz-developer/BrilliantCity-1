@@ -9,9 +9,6 @@ import { FiClock } from "react-icons/fi";
 
 
 const Footer = () => {
-  const makeCall = () => {
-    window.location.href = 'tel:1361';
-  };
   const position = [41.307163, 69.281239];
   return (
     <footer className="footer">
@@ -44,10 +41,10 @@ const Footer = () => {
             <div className="footer_social">
               <div className="footer_phone">
                 <p className="footer_phone_text">Telefon</p>
-                <button onClick={makeCall} className="footer_phone_number">
-                  <BiSolidPhoneCall/>
+                <a href="tel:1361" className="footer_phone_number">
+                  <BiSolidPhoneCall />
                   1361
-                </button>
+                </a>
               </div>
               <div className="footer_icons">
                 <a href="https://www.instagram.com/txtgroup.uzb" className="footer_icon">
