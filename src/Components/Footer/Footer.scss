@@ -69,7 +69,6 @@
         margin-top: 8px;
         display: flex;
         flex-direction: column;
-        gap: 32px;
 
         @include media (1200px){
             grid-column: span 2;

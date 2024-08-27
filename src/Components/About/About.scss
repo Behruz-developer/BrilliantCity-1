@@ -2,7 +2,10 @@
     height: auto;
     overflow: hidden;
     padding-bottom: 40px;
+    @include media (650px) {
+        padding-bottom: 60px;
 
+    }
     @include media (600px) {
         padding-bottom: 80px;
 
@@ -146,7 +149,7 @@
         }
 
         &_img {
-            width: 60px;
+            width: 80px;
             height: 100%;
             color: black;
             // @include media(1400px) {
@@ -171,7 +174,7 @@
         }
 
         &_card {
-            width: 60px;
+            width: 80px;
             height: 80px;
 
             @include media(1400px) {
